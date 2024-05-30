@@ -39,7 +39,7 @@ const Footer = () => {
                 key={media.id}
                 className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter bg-black-200 rounded-lg border border-black-300"
               >
-                <img src={media.img} alt={media.id} width={20} height={20} />
+                <img src={media.img} alt="socials" width={20} height={20} />
               </div>
             ))}
           </div>
