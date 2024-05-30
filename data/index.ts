@@ -49,8 +49,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
+    title: "Solved 450+ DSA questions on LeetCode ",
+    description: "Problem Solving",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -104,7 +104,7 @@ export const projects = [
     id: 3,
     title: "AI image generation app",
     des: "A full-stack platform for gernerating images from input text. It uses OpenAI’s DALL-E model API to generates images from text.",
-    img: "/p3.svg",
+    img: "/ai image.png",
     iconLists: [
       "/javascript-svgrepo-com.svg",
       "/tail.svg",
@@ -120,7 +120,7 @@ export const projects = [
     id: 4,
     title: "WanderLust",
     des: "A MERN full-stack platform for hotel booking management system.",
-    img: "/p4.svg",
+    img: "/wanderlust.png",
     iconLists: [
       "/javascript-svgrepo-com.svg",
       "/tail.svg",
@@ -128,7 +128,6 @@ export const projects = [
       "/re.svg",
       "/express-svgrepo-com.svg",
       "/node-svgrepo-com (1).svg",
-      "/cloudinary-svgrepo-com.svg",
     ],
     link: "https://wanderlust-delta-project.onrender.com",
   },
@@ -168,63 +167,63 @@ export const testimonials = [
 ];
 
 export const companies = [
-  {
-    id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
-  },
-  {
-    id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
-  },
-  {
-    id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
-  },
-  {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
-  },
+  // {
+  //   id: 1,
+  //   name: "NextJS",
+  //   img: "/next.svg",
+  //   nameImg: "/nextjs-13.svg",
+  // },
+  // {
+  //   id: 2,
+  //   name: "tailwindcss",
+  //   img: "/tail.svg",
+  //   nameImg: "/tailwindcss-ar21.svg",
+  // },
+  // {
+  //   id: 3,
+  //   name: "HOSTINGER",
+  //   img: "/host.svg",
+  //   nameImg: "/hostName.svg",
+  // },
+  // {
+  //   id: 4,
+  //   name: "stream",
+  //   img: "/s.svg",
+  //   nameImg: "/streamName.svg",
+  // },
+  // {
+  //   id: 5,
+  //   name: "docker.",
+  //   img: "/dock.svg",
+  //   nameImg: "/dockerName.svg",
+  // },
 ];
 
 export const workExperience = [
   {
     id: 1,
     title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    desc: "Developed and maintained user-facing features using modern frontend technologies.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
-  {
-    id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
-  },
-  {
-    id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
+  // {
+  //   id: 2,
+  //   title: "Mobile App Dev - JSM Tech",
+  //   desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+  //   className: "md:col-span-2", // change to md:col-span-2
+  //   thumbnail: "/exp2.svg",
+  // },
+  // {
+  //   id: 3,
+  //   title: "Freelance App Dev Project",
+  //   desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+  //   className: "md:col-span-2", // change to md:col-span-2
+  //   thumbnail: "/exp3.svg",
+  // },
   {
     id: 4,
-    title: "Lead Frontend Developer",
+    title: "Full Stack Developer Intern",
     desc: "Developed and maintained user-facing features using modern frontend technologies.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
