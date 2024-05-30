@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: "Prakhar Arya",
   description: "A passionate full stack developer",
   icons: {
-    icon: "/icon.svg",
+    icon: "/Prakhar Arya circle.png",
   },
 };
 

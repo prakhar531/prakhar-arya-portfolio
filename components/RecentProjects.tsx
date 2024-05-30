@@ -1,6 +1,5 @@
 import { projects } from "@/data";
 import React from "react";
-import { div } from "three/examples/jsm/nodes/Nodes.js";
 import { PinContainer } from "./ui/3d-pin";
 import { FaLocationArrow } from "react-icons/fa6";
 
@@ -16,21 +15,24 @@ const RecentProjects = () => {
             key={id}
             className="sm:h-[41rem] lg:min-h-[32.5rem] h-[32rem] flex items-center justify-center sm:w-[574px] w-[80vw]"
           >
-            <PinContainer title={link} href={link}>
+            <PinContainer title={title} href={link}>
               <div className=" h-[40vh] flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden mb-10 relative ">
                 <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]">
                   <img src="/bg.png" alt="bg-img" />
                 </div>
+
                 <img src={img} alt="cover" className="z-10 absolute bottom-0" />
               </div>
 
               <div className="flex flex-col gap-2 px-2 md:px-4">
-                <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1 text-white">
-                  {title}
-                </h1>
-                <p className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2 ">
-                  {des}
-                </p>
+                <a href={link}>
+                  <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1 text-white">
+                    {title}
+                  </h1>
+                  <p className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2 ">
+                    {des}
+                  </p>
+                </a>
               </div>
 
               <div className="flex items-center justify-between mt-7 mb-3">
@@ -48,7 +50,9 @@ const RecentProjects = () => {
                   ))}
                 </div>
                 <div className="flex items-center justify-center">
-                  <p className="flex lg:text-sm text-sm">Check Live site</p>
+                  <a href={link}>
+                    <p className="flex lg:text-sm text-sm">Check Live site</p>
+                  </a>
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
                 </div>
               </div>
