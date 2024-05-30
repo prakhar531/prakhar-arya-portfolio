@@ -205,13 +205,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    links: "https://github.com/prakhar531",
   },
   {
     id: 2,
     img: "/twit.svg",
+    links: "https://twitter.com/prakhararya521",
   },
   {
     id: 3,
     img: "/link.svg",
+    links: "https://www.linkedin.com/in/prakhar-dev/",
   },
 ];

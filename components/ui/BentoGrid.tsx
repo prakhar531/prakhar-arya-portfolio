@@ -12,6 +12,7 @@ import animationData from "@/data/confetti.json";
 import { cn } from "@/utils/cn";
 import { GlobeDemo } from "./GridGlobe";
 import MagicButton from "./MagicButton";
+import MagicButton2 from "./MagicButton2";
 
 export const BentoGrid = ({
   className,
@@ -179,7 +180,7 @@ export const BentoGridItem = ({
                 <Lottie options={defaultOptions} height={200} width={400} />
               </div>
 
-              <MagicButton
+              <MagicButton2
                 title={copied ? "Email is Copied!" : "Copy my email address"}
                 icon={<IoCopyOutline />}
                 position="left"

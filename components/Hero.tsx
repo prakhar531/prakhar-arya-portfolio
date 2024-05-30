@@ -3,6 +3,12 @@ import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import MagicButton from "./ui/MagicButton";
 import { FaLocationArrow } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa";
+import { ImLinkedin } from "react-icons/im";
+import { FaSquareXTwitter } from "react-icons/fa6";
+import { FaTwitter } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
+import { IoDocumentTextSharp } from "react-icons/io5";
 
 const Hero = () => {
   return (
@@ -34,13 +40,45 @@ const Hero = () => {
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-m lg:text-2xl">
             Hi, I&apos;m, Prakhar Arya. a NEXTJS developer....
           </p>
-          <a href="#about">
-            <MagicButton
-              title="Show my work"
-              icon={<FaLocationArrow />}
-              position="right"
-            />
-          </a>
+          <div className="flex gap-2 md:gap-5">
+            <a href="https://github.com/prakhar531">
+              <MagicButton
+                title=""
+                icon={<FaGithub className="md:w-6 md:h-6 w-4 h-4 " />}
+                position="right"
+              />
+            </a>
+            <a href="https://www.linkedin.com/in/prakhar-dev/">
+              <MagicButton
+                title=""
+                icon={<ImLinkedin className="md:w-6 md:h-6 w-4 h-4 " />}
+                position="right"
+              />
+            </a>
+            <a href="https://twitter.com/prakhararya521">
+              <MagicButton
+                title=""
+                icon={<FaTwitter className="md:w-6 md:h-6 w-4 h-4 " />}
+                position="right"
+              />
+            </a>
+            <a href="https://leetcode.com/u/prakhar_arya/">
+              <MagicButton
+                title=""
+                icon={<SiLeetcode className="md:w-6 md:h-6 w-4 h-4 " />}
+                position="right"
+              />
+            </a>
+            <a href="https://drive.google.com/file/d/1gCI0fwU3KYEr9GmhmEOBaZXjDvH60UE_/view?usp=sharing">
+              <MagicButton
+                title=""
+                icon={
+                  <IoDocumentTextSharp className="md:w-6 md:h-6 w-4 h-4 " />
+                }
+                position="right"
+              />
+            </a>
+          </div>
         </div>
       </div>
     </div>
