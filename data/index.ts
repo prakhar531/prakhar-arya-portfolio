@@ -252,15 +252,31 @@ export const certificate = [
   {
     id: 1,
     title: "Alpha",
-    desc: "A DSA course by Apna College...",
+    desc: "A comprehensive Data Structures and Algorithms (DSA) course focused on Java by Apna College.",
     image: "/alpha.png",
     link: "https://drive.google.com/file/d/1_mnBmpgZPJ5hoEqz3rcZOR5iR6WVH3RL/view",
+    iconLists: [
+      "/next.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/c.svg",
+      "mongo.svg",
+      "stripe-v2-svgrepo-com.svg",
+    ],
   },
   {
     id: 2,
     title: "Delta",
-    desc: "A MERN Full Stack course by Apna College...",
+    desc: "A MERN Full Stack Development course.It provides hands-on experience with MongoDB, Express.js, React, and Node.js.",
     image: "/delta.png",
     link: "https://mycourse.app/F7i2MnU7ZBgLoQv1A",
+    iconLists: [
+      "/next.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/c.svg",
+      "mongo.svg",
+      "stripe-v2-svgrepo-com.svg",
+    ],
   },
 ];
