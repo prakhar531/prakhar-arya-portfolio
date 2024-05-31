@@ -34,7 +34,7 @@ const Ceritficates = () => {
                 </CardItem>
                 <CardItem
                   translateZ="100"
-                  className=" h-[40vh] flex items-center justify-center overflow-hidden md:my-10 my-2 relative"
+                  className=" h-[40vh] flex items-center justify-center overflow-hidden md:my-10 xl:my-4 my-2 relative"
                 >
                   <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]">
                     <img src="/bg.png" alt="bg-img" />
@@ -42,7 +42,7 @@ const Ceritficates = () => {
 
                   <img src={image} alt="cover" className="z-10" />
                 </CardItem>
-                <div className="flex justify-between items-center md:mt-10 mt-4">
+                <div className="flex justify-between items-center md:mt-8 mt-4">
                   <CardItem
                     translateZ={20}
                     as={Link}
