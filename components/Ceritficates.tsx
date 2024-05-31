@@ -3,7 +3,6 @@ import { CardBody, CardContainer, CardItem } from "./ui/3dCard";
 import Image from "next/image";
 import Link from "next/link";
 import { certificate } from "@/data";
-import { div } from "three/examples/jsm/nodes/Nodes.js";
 import { FaLocationArrow } from "react-icons/fa6";
 
 const Ceritficates = () => {

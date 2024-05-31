@@ -3,7 +3,6 @@ export const navItems = [
   { name: "Projects", link: "#projects" },
   { name: "Experience", link: "#experience" },
   { name: "Certificates", link: "#certificates" },
-  ,
 ];
 
 export const gridItems = [
