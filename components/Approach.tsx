@@ -17,9 +17,7 @@ const Approach = () => {
         <Card
           title="PTJM Saraswati Vidya Mandir"
           icon={<AceternityIcon order="Matriculation" />}
-          des="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
+          des="Rajgir, Bihar"
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -30,9 +28,7 @@ const Approach = () => {
         <Card
           title="Guru Gobind Singh Public School"
           icon={<AceternityIcon order="Intermediate" />}
-          des="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way."
+          des="Bokaro, Jharkhand"
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -52,9 +48,7 @@ const Approach = () => {
         <Card
           title="BMS Institute of Technology and Management"
           icon={<AceternityIcon order="Graduation " />}
-          des="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
+          des="Yelahanka, Bengaluru"
         >
           <CanvasRevealEffect
             animationSpeed={3}
