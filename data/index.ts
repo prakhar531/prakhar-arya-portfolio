@@ -247,3 +247,20 @@ export const socialMedia = [
     links: "https://www.linkedin.com/in/prakhar-dev/",
   },
 ];
+
+export const certificate = [
+  {
+    id: 1,
+    title: "Alpha",
+    desc: "A DSA course by Apna College...",
+    image: "/alpha.png",
+    link: "https://drive.google.com/file/d/1_mnBmpgZPJ5hoEqz3rcZOR5iR6WVH3RL/view",
+  },
+  {
+    id: 2,
+    title: "Delta",
+    desc: "A MERN Full Stack course by Apna College...",
+    image: "/delta.png",
+    link: "https://mycourse.app/F7i2MnU7ZBgLoQv1A",
+  },
+];
